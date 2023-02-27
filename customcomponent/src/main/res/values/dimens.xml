@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="widget_margin_top">25</integer>
+
+    <dimen name="textview_size">16sp</dimen>
+    <dimen name="textview_size_h1">34sp</dimen>
+    <dimen name="textview_size_h2">22sp</dimen>
+    <dimen name="textview_size_h3">20sp</dimen>
+    <dimen name="textview_size_h4">18sp</dimen>
+    <dimen name="textview_size_h5">16sp</dimen>
+    <dimen name="textview_size_h6">14sp</dimen>
+    <dimen name="textview_size_h7">12sp</dimen>
+
+    <dimen name="button_bar_container_height">75dp</dimen>
+    <dimen name="button_bar_container_elevation">4dp</dimen>
+
+    <dimen name="text_input_layout_default_text_size">18sp</dimen>
+    <dimen name="text_input_layout_hint_text_size">17sp</dimen>
+    <dimen name="text_input_layout_error_text_size">15sp</dimen>
+
+    <dimen name="app_bar_height">56dp</dimen>
+    <dimen name="app_bar_title_size">20sp</dimen>
+    <dimen name="app_bar_icon_height">24dp</dimen>
+
+    <dimen name="menu_item_spacing">20dp</dimen>
+
+    <dimen name="view_shadow_height">4.5dp</dimen>
+
+    <dimen name="parent_vertical_guideline_margin">16dp</dimen>
+    <dimen name="view_pager_parent_vertical_guideline_margin">24dp</dimen>
+
+    <dimen name="signature_view_button_height">40dp</dimen>
+
+    <dimen name="loading_view_progress_size">85dp</dimen>
+
+    <dimen name="cards_menu_item_height">60dp</dimen>
+
+    <dimen name="check_button_elevation">2dp</dimen>
+</resources>

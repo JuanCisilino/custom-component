@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout"
+        style="@style/TextInput.Layout.Outline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:hint="Hint Text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input"
+            style="@style/TextInput.Layout.Outline.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="This is the input text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/notes"
+        style="@style/TextInput.Layout.Outline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/muli_regular" />
+
+</LinearLayout>
+
+</merge>

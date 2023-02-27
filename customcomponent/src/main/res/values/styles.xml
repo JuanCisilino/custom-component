@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextInput.Layout.Outline" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="errorTextColor">@color/colorError</item>
+        <item name="errorTextAppearance">@style/ErrorTextAppearance</item>
+        <item name="hintTextColor">@color/colorPrimary</item>
+        <item name="hintTextAppearance">@style/HintTextAppearance</item>
+        <item name="boxStrokeColor">@color/text_input_layout_outline_stroke_color</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxStrokeWidthFocused">1.8dp</item>
+        <item name="errorEnabled">true</item>
+        <item name="errorIconDrawable">@null</item>
+    </style>
+
+    <style name="TextInput.Layout.Outline.EditText">
+        <item name="android:textColor">@color/colorTitleBlack</item>
+        <item name="android:textSize">@dimen/text_input_layout_default_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+    </style>
+
+    <style name="HintTextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_input_layout_hint_text_size</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+    </style>
+
+    <style name="ErrorTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorError</item>
+        <item name="android:textSize">@dimen/text_input_layout_error_text_size</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+    </style>
+
+</resources>

@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Desktop/CustomComponents/customcomponent/src/main/res/drawable/bg_rounded_white.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/User/Desktop/CustomComponents/customcomponent/src/main/res/font/bold.xml" value="0.2" />
         <entry key="..\:/Users/User/Desktop/CustomComponents/customcomponent/src/main/res/layout/custom_edit_text.xml" value="0.35269709543568467" />
+        <entry key="..\:/Users/User/Desktop/CustomComponents/customcomponent/src/main/res/layout/custom_image_view.xml" value="0.1796875" />
       </map>
     </option>
   </component>

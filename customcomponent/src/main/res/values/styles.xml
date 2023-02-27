@@ -35,4 +35,8 @@
         <item name="android:fontFamily">@font/muli_regular</item>
     </style>
 
+    <style name="ShapeAppearanceOverlay.App.CprnerSize50percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
 </resources>
